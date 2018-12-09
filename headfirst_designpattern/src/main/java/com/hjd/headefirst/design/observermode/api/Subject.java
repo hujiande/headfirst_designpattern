@@ -10,11 +10,11 @@ public interface Subject {
 	/**
 	 *  register interface
 	 */
-	public void registerObserver();
+	public void registerObserver(Observer ob);
 	/**
 	 * 	cancel interface
 	 */
-	public void removeObserver();
+	public void removeObserver(Observer ob);
 	/**
 	 * notify interface: when the theme is updated, invoking this method, to inform all observer 
 	 */
